@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/normalice.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3478c33dcb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1000">
+    <div class="header__nav">
+      <div class="nav container">
+        <img src="./images/logo.svg" alt="Huddle" class="nav-logo">
+        <a href="#" aria-label="Try it free" class="nav-cta">Try it Free</a>
+      </div>
+    </div>
+    <div class="header__information">
+      <div class="container">
+        <h1 class="header-title">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="header-paragraph">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. 
+        </p>
+        <a href="#" aria-label="Get started" class="header-cta">Get Started For Free</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main__sectionOne" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1000">
+      <div class="container">
+        <img src="./images/screen-mockups.svg" alt="" aria-disabled="true" class="sectionOne-img">
+        <div class="sectionOne__data">
+          <div class="data__information">
+            <img src="./images/icon-communities.svg" alt="" aria-disabled="true" class="information-icon">
+            <h2 class="information-title">1.4k+</h2>
+            <p class="information-paragraph">Communities Formed</p>
+          </div>
+          <div class="data__information">
+            <img src="./images/icon-messages.svg" alt="" aria-disabled="true" class="information-icon">
+            <h2 class="information-title">2.7m+</h2>
+            <p class="information-paragraph">Messages Sent</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__sectionTwo" data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1000">
+      <div class="mainGrid">
+        <div class="sectionTwo__card">
+          <img src="./images/bg-section-top-mobile-1.svg" alt="" aria-disabled="true" class="card-waveTop">
+          <div class="card-grid  container">
+            <img src="./images/illustration-flowing-conversation.svg" alt="" aria-disabled="true" class="card-ilustration">
+            <div class="card-container">
+              <h2 class="card-title">Grow Together</h2>
+              <p class="card-paragraph">
+                Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
+              </p>
+            </div>
+          </div>
+          <img src="./images/bg-section-bottom-mobile-1.svg" alt="" aria-disabled="true" class="card-waveBottom">
+        </div>
+        <div class="sectionTwo__card sectionTwo__card-active">
+          <div class="card-grid card-grid-active container">
+            <img src="./images/illustration-your-users.svg" alt="" aria-disabled="true" class="card-ilustration card-ilustration-active">
+            <div class="card-container card-container-active">
+              <h2 class="card-title">Flowing Conversations</h2>
+              <p class="card-paragraph">
+                You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="sectionTwo__card">
+          <img src="./images/bg-section-top-mobile-2.svg" alt="" aria-disabled="true" class="card-waveTop">
+          <div class="card-grid  container">
+            <img src="./images/illustration-flowing-conversation.svg" alt="" aria-disabled="true" class="card-ilustration">
+            <div class="card-container">
+              <h2 class="card-title">Your Users</h2>
+              <p class="card-paragraph">
+                It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
+              </p>
+            </div>
+          </div>
+          <img src="./images/bg-section-bottom-mobile-2.svg" alt="" aria-disabled="true" class="card-waveBottom">
+        </div>
+      </div>
+    </section>
+    <section class="main__sectionThree" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1000">
+      <div class="container">
+        <h2 class="sectionThree-title">Ready To Build Your Community?</h2>
+        <a href="#" class="sectionThree-cta">
+          Get Started For Free
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1000">
+    <div class="footer-grid container">
+      <img src="./images/bg-footer-top-mobile.svg" alt="" aria-disabled="true" class="footer-wave">
+      <form action="#" class="footer__form">
+        <h2 class="form-title">Newsletter</h2>
+        <p class="form-paragraph">
+          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address
+        </p>
+        <div class="form-flex">
+          <input type="mail" name="mail" id="form-mail">
+          <label for="form-mail" class="mail-error"></label>
+          <input type="submit" value="Subscribe" class="form-submit">
+        </div>
+      </form>
+      <div class="footer__about">
+        <img src="./images/logo.svg" alt="Huddle" class="footer-logo">
+        <p class="about-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <address class="about-addresses">
+          <a href="#" class="about-cta">
+            <img src="./images/icon-phone.svg" alt="" aria-disabled="true">
+            Phone: +1-543-123-4567
+          </a>
+          <a href="#" class="about-cta">
+            <img src="./images/icon-email.svg" alt="" aria-disabled="true">
+            example@huddle.com  
+          </a>
+        </address>
+        <div class="about-media">
+          <a href="#" class="media-cta" aria-label="go to faceebok">
+            <i class="fa-brands fa-square-facebook fa-xl"></i>
+          </a>
+          <a href="#" class="media-cta" aria-label="Go to Instagram">
+            <i class="fa-brands fa-instagram fa-xl"></i>
+          </a>
+          <a href="#" class="media-cta" aria-label="Go to Twitter">
+            <i class="fa-brands fa-square-twitter fa-xl"></i>
+          </a>
+        </div>
+      </div>
+      <p class="attribution">
+        Coded by <a href="https://github.com/flchris" target="_blank">CHRIS FL</a>.
+      </p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
