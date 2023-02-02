@@ -18,5 +18,3 @@ buttonSubmit.addEventListener('click', (e) => {
         inputEmail.value = '';
     }, 2000);
 });
-
-AOS.init();
